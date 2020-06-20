@@ -1,4 +1,5 @@
-# Projeto desenvolvido na Maratona Dev
+# Projeto desenvolvido na Maratona Dev 
+<img src="https://github.com/MoraesFS-N/donor-blood/blob/master/public/img/logo.png" width="50px" style="margin-left: 50px"> 
 
 ## Tecnologias
 - HTML
@@ -9,7 +10,7 @@
 - SQL
   - Postbird
  ____________________________________________________________________________________________________
- ### O projeto *Doe* tem por intuito, incentivar e demonstrar a importância da doação de sangue.
+ ### O projeto <img src="https://github.com/MoraesFS-N/donor-blood/blob/master/public/img/logo.png" width="30px"> tem por intuito, incentivar e demonstrar a importância da doação de sangue.
  ### Para rodá-lo:
  - Faça um clone git em seu editor de código e execute dentro da pasta onde o projeto foi clonado:
  > npm init -y
