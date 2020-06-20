@@ -25,7 +25,7 @@ header, main, footer{
 
 header, .form, main{
     /*espaçamentos com margin*/
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     /*limites de elements na pagina*/
     width: 90%;
     max-width: 500px;
@@ -40,9 +40,11 @@ header h1, main h2{
    width: 150px;
    margin-top: 70px ;
 }
+
 header p{
     font-size: 14px;
 }
+
 h1, h2{
     color: #000000ee;
 }
@@ -50,15 +52,22 @@ h1, h2{
 main h2 span{
     color: rgb(255, 41, 41);
 }
+
 header button{
     background-color: rgb(255, 41, 41);
     color: white;
     border: 1px rgb(255, 41, 41) solid;
-    font-weight: 4px;
+    font-weight: bold;
     border: none;
     margin-top: 16px;
-    padding: 8px 16px;
+    padding: 16px 32px;
     border-radius: 4px;
+    font-size: 16px;
+    transition: 500ms;
+}
+
+header button:hover{
+    background-color: rgb(184, 19, 19);
 }
 .form h2{
     text-align: center;
@@ -119,6 +128,12 @@ main .donors{
     position: relative;
 
 }
+.donor{
+    transition: 400ms;
+}
+.donor:hover{
+    color: red;
+}
 
 .blood::before{
     content: "";
@@ -135,10 +150,9 @@ main .donors{
 }
 
 .donor p{
-
-    margin-top: 24px;
+    margin-top: 14px;
     margin-bottom: 64px;
-    font-size: 14px;
+    font-size: 16px;
 }
 footer{
     margin-top: auto;
